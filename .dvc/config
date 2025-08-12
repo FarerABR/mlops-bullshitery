@@ -1,0 +1,5 @@
+[core]
+    remote = mlopsremote
+['remote "mlopsremote"']
+    url = gdrive://1I8pX2Kex2R1npt4ut0CT85GeAcGxBC-X
+    gdrive_use_service_account = false
