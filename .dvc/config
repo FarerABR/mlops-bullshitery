@@ -1,5 +1,8 @@
 [core]
-    remote = mlopsremote
-['remote "mlopsremote"']
-    url = gdrive://1I8pX2Kex2R1npt4ut0CT85GeAcGxBC-X
-    gdrive_use_service_account = false
+    remote = s3remote
+['remote "s3remote"']
+    url = s3://dvc-service/
+    endpointurl = https://kshgvqovylaymuvloxie.storage.supabase.co/storage/v1/s3
+    access_key_id = f1949e42b7bcaf6c70369eb0808ef7bf
+    secret_access_key = 67f44c8f11bb702468e5e814169fb87f3638a9d85a98764d81398564674b092c
+    region = eu-central-1
