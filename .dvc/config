@@ -3,6 +3,6 @@
 ['remote "s3remote"']
     url = s3://dvc-service/
     endpointurl = https://kshgvqovylaymuvloxie.storage.supabase.co/storage/v1/s3
-    access_key_id = f1949e42b7bcaf6c70369eb0808ef7bf
-    secret_access_key = 67f44c8f11bb702468e5e814169fb87f3638a9d85a98764d81398564674b092c
+    access_key_id = ${S3_ACCESS_ID}
+    secret_access_key = ${S3_SECRET_KEY}
     region = eu-central-1
